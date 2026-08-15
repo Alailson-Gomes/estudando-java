@@ -6,8 +6,8 @@ Repositório criado para registrar meus estudos e minha evolução na linguagem 
 
 * Fundamentos de Java
 * Variáveis e tipos de dados
+* Operadores 
 * Entrada e saída de dados
-* Operadores
 * Estruturas condicionais
 * Estruturas de repetição
 * Arrays
