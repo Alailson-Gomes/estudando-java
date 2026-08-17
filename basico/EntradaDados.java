@@ -43,6 +43,7 @@ public class EntradaDados{
      System.out.println("Peso: "+peso); 
      System.out.println("Altura: "+altura); 
      System.out.println("Inicial: "+inicial); 
-     System.out.println("Estudando: "+estudando);           
+     System.out.println("Estudando: "+estudando);   
+             
   }
 }
