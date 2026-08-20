@@ -24,9 +24,7 @@ Os conteúdos estão separados por assunto para facilitar a organização e a re
 
 ```text
 basico/
-condicionais/
-repeticao/
-arrays/
+estrutura-dados/
 metodos/
 poo/
 exercicios/
