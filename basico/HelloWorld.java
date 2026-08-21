@@ -1,3 +1,4 @@
+package basico;
 /*
     Estrutura básica de um programa Java
 

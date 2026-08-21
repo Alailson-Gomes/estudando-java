@@ -15,8 +15,8 @@ public class TiposPrimitivo {
         System.out.println("Nome: "+nome);
         System.out.println("Inicial: "+inicial);
         System.out.println("Idade: "+idade);
-        System.out.printf("Peso: %.2f"+"kg\n",peso);
-        System.out.printf("Altura: %.2f"+"m\n",altura);
+        System.out.printf("Peso: %.2f kg \n",peso);
+        System.out.printf("Altura: %.2f m \n",altura);
         System.out.println("Estudando: "+estudando);
 
 

@@ -1,3 +1,4 @@
+package basico;
 /*
     Entrada de dados
 

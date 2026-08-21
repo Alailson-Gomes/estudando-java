@@ -1,3 +1,4 @@
+package basico;
 /*
     Estruturas de repetição
 
@@ -49,13 +50,11 @@ public class Repeticao{
         int valor = scanner.nextInt();
         for(int i=0;i<=valor;i++){
             if(i==0){
-                System.out.println("Par:"+i);
+                System.out.println("Par: "+i);
             }else if(i>10){
                 break;
-            }else if(i % 2 == 1){
-                continue;
-            }else {
-                System.out.println("par: "+i);
+            }else if(i % 2 !=1){
+                System.out.println("Par: "+i);
             }
         }
 
