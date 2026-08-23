@@ -48,8 +48,8 @@ public class entradadados {
         System.out.println("Titulo: "+titulo);
         System.out.println("Autor: "+autor);
         System.out.println("Publicado em: "+publicado);
-        System.out.printf("Preço: R$ %.2f \n",preco);
-        System.out.println(linha);
+        System.out.printf("Preço: R$ %.2f ",preco);
+        System.out.println("\n"+linha);
         
         
         //Nivel dificil
@@ -88,3 +88,4 @@ public class entradadados {
 
     }
 }
+  
