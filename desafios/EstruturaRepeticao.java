@@ -41,5 +41,7 @@ public class EstruturaRepeticao {
             }
 
         }while(!tentativa.equals(senha));
+
+        scanner.close();
     }
 }
