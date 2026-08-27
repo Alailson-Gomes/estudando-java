@@ -7,6 +7,15 @@ package basico;
     - Relacionais: ==, !=, >, <, >=, <=
     - Lógicos: &&, ||, !
     - Incremento e decremento: ++, --
+    - Ternário: ?:
+    
+    Precedência:
+    - Parênteses: ()
+    - Aritméticos: *, /, % → +, -
+    - Relacionais: <, >, <=, >=
+    - Igualdade: ==, !=
+    - Lógicos: && → ||
+    - Ternário: ?:
 */
 
 public class Operadores {
@@ -67,6 +76,16 @@ public class Operadores {
         k--;
         System.out.println("Decrementar -1: " + k);
 
+
+        //Operador Ternario
+        int idadea = 18;
+        String resultado = idadea>=18 ? "Maior de idade" : "Menor de idade" ;
+        System.out.println(resultado);
+
+        //Oredem de precedencia
+        System.out.println("\n\nOrdem de precedencia\n");
+        double conta = 2-2+3*4/2;
+        System.out.println(conta);
 
     }
 }
