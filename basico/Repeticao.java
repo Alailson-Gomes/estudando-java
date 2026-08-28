@@ -4,9 +4,11 @@ package basico;
 
     - while: repete enquanto uma condição for verdadeira.
     - do while: executa o código pelo menos uma vez e depois verifica a condição.
-    - for: repete código enquanto uma condição for verdadeira,com uma quantidade definida.
-    - break: interrompe a repetição.
-    - continue: pula a repetição atual e continua para a próxima.
+    - for: repete código enquanto uma condição for verdadeira, geralmente usado
+      quando sabemos ou controlamos a quantidade de repetições.
+    - break: interrompe o loop completamente.
+    - continue: pula a repetição atual e passa para a próxima.
+    - loops aninhados: um loop dentro de outro loop.
 */
 
 import java.util.Scanner;
@@ -53,8 +55,16 @@ public class Repeticao{
                 System.out.println("Par: "+i);
             }else if(i>10){
                 break;
-            }else if(i % 2 !=1){
-                System.out.println("Par: "+i);
+            }else if(i % 2 !=0){
+                continue;
+            }
+            System.out.println("Par: "+i);
+        }
+        
+        //loops dentro de loops
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<=5;j++){
+                System.out.printf("Linha: %d , Coluna: %d \n",i,j);
             }
         }
 
