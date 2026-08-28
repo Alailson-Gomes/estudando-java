@@ -10,6 +10,16 @@ package basico;
     - double: número decimal (aprox. 15 a 16 dígitos de precisão)
     - char: um único caractere
     - boolean: valor lógico (true ou false)
+
+    Casting - conversão de tipos
+    - Implícito: conversão automática para um tipo compatível
+    - Explícito: conversão feita manualmente usando (tipo)
+
+    Constantes
+    - final: impede que o valor de uma variável seja alterado
+
+    null
+    - Representa ausência de referência em tipos que trabalham com objetos
 */
 public class TiposPrimitivos{
     public static void main(String[] args){
@@ -33,6 +43,26 @@ public class TiposPrimitivos{
         System.out.println(caractere);
         System.out.println(verdadeiro);
         System.out.println(falso);
-    }
 
+
+        //Casting - conversão de tipos
+        int numero = 10 ;
+        double valor = numero;
+        System.out.println("\n"+valor);
+        
+        //Conversão explicita
+        double nd = 14.1467;
+        int ni =(int)nd;
+        System.out.println(ni);
+
+        //Constantes
+        final double PI = 3.14159;
+        System.out.println(PI);
+
+        //null. objetos/referências
+        String nome = null;
+        System.out.println(nome);
+        nome = "Alailson";
+        System.out.println(nome);
+    }
 }
