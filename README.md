@@ -1,40 +1,47 @@
-# estudos-java
+# ☕ Estudos de Java
 
-Repositório criado para registrar meus estudos e minha evolução na linguagem Java.
+Repositório criado para registrar meus estudos, exercícios e evolução no aprendizado da linguagem **Java**.
 
-# Conteúdos
+## 📚 Conteúdos
 
-* Fundamentos de Java
+### Fundamentos
+
 * Variáveis e tipos de dados
-* Operadores 
+* Operadores
 * Entrada e saída de dados
 * Estruturas condicionais
 * Estruturas de repetição
 * Arrays
+* Matrizes
 * Métodos
+* Strings
+* ArrayList
+* Pilha
+* Fila
+* Tratamento de exceções
 * Programação Orientada a Objetos (POO)
+
+### Prática
+
 * Exercícios
 * Projetos
 
----
-
-# Organização
-
-Os conteúdos estão separados por assunto para facilitar a organização e a revisão dos estudos.
+## 📁 Organização
 
 ```text
-basico/
-estrutura-dados/
-metodos/
-poo/
-exercicios/
-projetos/
+estudando-java/
+├── basico/
+├── desafios/
+├── estruturas-dados/
+├── poo/
+└── projetos/
 ```
 
-# Objetivo
+Cada pasta reúne os conteúdos de acordo com a etapa do estudo.
 
-Aprender Java desde os fundamentos até os principais conceitos de Programação Orientada a Objetos, desenvolvendo exercícios e pequenos projetos ao longo do aprendizado.
+## 🎯 Objetivo
 
+Aprender Java desde os fundamentos até os principais conceitos de **Programação Orientada a Objetos**, desenvolvendo exercícios e pequenos projetos para colocar os conhecimentos em prática.
 
 ---
 
