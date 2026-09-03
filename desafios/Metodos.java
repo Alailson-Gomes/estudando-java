@@ -29,9 +29,12 @@ public class Metodos {
         Scanner scanner = new Scanner(System.in);
         double nota1,nota2,nota3,media;
         boolean situacao;
-        
+
+        System.out.print("\nNota 1: ");
         nota1 = scanner.nextDouble();
+        System.out.print("\nNota 2: ");
         nota2 = scanner.nextDouble();
+        System.out.print("\nNota 3: ");
         nota3 = scanner.nextDouble();
 
         media = calcularMedia(nota1,nota2,nota3);
