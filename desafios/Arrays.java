@@ -1,7 +1,7 @@
 package desafios;
 import java.util.Scanner;
 
-public class Arrys {
+public class Arrays {
     public static void main(String[] args){
         
         //Nivel Facil
@@ -16,7 +16,7 @@ public class Arrys {
         Scanner scanner = new Scanner(System.in);
         double[] notas = new double[3];
         double soma=0;
-        double media=0.0;
+        double media= 0.0;
         
         System.out.println("\n\nDigite suas notas\n");
         
